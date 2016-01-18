@@ -3,31 +3,13 @@ rpres3
 author: Pedro
 date: `r date()`
 
-First Slide
-========================================================
 
-For more details on authoring R presentations click the
-**Help** button on the toolbar.
-
-- Bullet 1
-- Bullet 2
-- Bullet 3
-
-Slide With Code
-========================================================
-
-```{r}
-summary(cars)
-```
-
-Slide With Plot
-========================================================
-
-```{r, echo=FALSE}
-plot(cars)
-```
 
 === 
+
+```{r set-options, echo=FALSE, cache=FALSE}
+options(RCHART_WIDTH = 1000, RCHART_HEIGHT = 400)
+```
 
 ``` {r, results='asis', comment=NA, echo=FALSE}
 
